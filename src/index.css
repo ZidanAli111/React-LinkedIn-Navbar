@@ -1,0 +1,174 @@
+.card {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.counter-card {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  max-width: 450px;
+  display: inline-block;
+}
+
+.todo-list {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-btn {
+  background-color: hsl(191, 94%, 46%);
+}
+
+.add-btn:hover {
+  background-color: hsl(191, 94%, 26%);
+  ;
+}
+
+.delete-btn {
+  background-color: hsl(0, 93%, 48%);
+}
+
+.delete-btn:hover {
+  background-color: hsl(0, 93%, 28%);
+}
+
+.move-btn {
+  background-color: hsl(161, 100%, 42%);
+}
+
+.move-btn:hover {
+  background-color: hsl(161, 100%, 32%);
+}
+
+
+
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid hsla(0, 0%, 80%, 0.966);
+  border-radius: 5px;
+  color: rgb(47, 46, 46);
+}
+
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 95%);
+  margin-bottom: 10px;
+  border: 3px solid hsla(0, 0%, 84%, 0.797);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  flex:1;
+  color: hsl(0, 0%, 55%);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.delete-btn,.move-btn{
+padding:8px 12px;
+font-size: 1.4rem;
+margin-left: 10px;
+}
+
+.card .card-image {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsla(0, 0%, 20%);
+}
+
+.counter-card .card-description {
+  font-family: Arial, sans-serif;
+  color: rgb(122, 122, 122);
+}
+
+.counter-card .decrement-btn {
+  background: hsl(189, 97%, 48%);
+  font-family: Arial, sans-serif;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  color: rgba(237, 237, 237, 0.977);
+  border-radius: 5%;
+  width: 120px;
+  height: 30px;
+  margin: 5px;
+
+}
+
+.counter-card .reset-btn {
+  background: hsl(189, 97%, 48%);
+  font-family: Arial, sans-serif;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  color: rgba(237, 237, 237, 0.977);
+  border-radius: 5%;
+  width: 120px;
+  height: 30px;
+  margin: 5px;
+
+}
+
+.counter-card .increment-btn {
+  background: hsl(189, 97%, 48%);
+  font-family: Arial, sans-serif;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  color: rgba(237, 237, 237, 0.977);
+  border-radius: 5%;
+  width: 120px;
+  height: 30px;
+  margin: 5px;
+
+}
+
+.counter-card .count {
+  font-size: 10em;
+  font-family: Arial, sans-serif;
+}
