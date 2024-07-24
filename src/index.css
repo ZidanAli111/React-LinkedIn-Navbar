@@ -21,12 +21,12 @@
 }
 
 .todo-list {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
   margin-top: 100px;
 }
 
-body{
+body {
   background-color: antiquewhite;
 }
 
@@ -75,16 +75,18 @@ button {
 input[type="text"] {
   font-size: 1.6rem;
   padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-right: 10px;
   border: 2px solid hsla(0, 0%, 80%, 0.966);
   border-radius: 5px;
   color: rgb(47, 46, 46);
 }
 
-ol{
+ol {
   padding: 0;
 }
-li{
+
+li {
   font-size: 2rem;
   font-weight: bold;
   padding: 15px;
@@ -96,16 +98,17 @@ li{
   align-items: center;
 }
 
-.text{
-  flex:1;
+.text {
+  flex: 1;
   color: hsl(0, 0%, 55%);
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.delete-btn,.move-btn{
-padding:8px 12px;
-font-size: 1.4rem;
-margin-left: 10px;
+.delete-btn,
+.move-btn {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
 }
 
 .card .card-image {
