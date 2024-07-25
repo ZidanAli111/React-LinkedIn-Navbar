@@ -1,6 +1,7 @@
 import './App.css'
 import { CarList } from './CarList'
 import { Counter } from './Counter'
+import { DigitalClock } from './DigitalClock'
 import { List } from './List'
 import { Todo } from './Todo'
 import { UserGreeting } from './UserGreeting'
@@ -13,7 +14,8 @@ function App() {
             {/* <List></List> */}
             {/* <Counter></Counter> */}
             {/* <CarList></CarList> */}
-            <Todo></Todo>
+            {/* <Todo></Todo> */}
+            <DigitalClock></DigitalClock>
         </div>
     )
 }
