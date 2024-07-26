@@ -1,0 +1,71 @@
+body {
+    background-image: url(assets/grass.jpg);
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.stopwatch-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid hsl(0, 0%, 89%);
+    border-radius: 50px;
+    padding: 30px;
+    background: transparent;
+    backdrop-filter: blur(2px);
+}
+
+.display {
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 96%);
+    text-shadow: 2px 2px 2px hsl(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+
+.controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+
+}
+
+.start-button {
+    background-color: hsl(125, 90%, 41%);
+}
+
+.start-button:hover {
+    background-color: hsl(125, 90%, 31%);
+}
+
+.stop-button {
+    background-color: hsl(1, 100%, 48%);
+}
+
+.stop-button:hover {
+    background-color: hsl(1, 100%, 38%);
+}
+
+.reset-button {
+    background-color: hsl(209, 100%, 48%);
+}
+
+.reset-button:hover {
+    background-color: hsl(209, 100%, 38%);
+}
