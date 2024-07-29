@@ -1,11 +1,12 @@
-import { Stopwatch } from './Stopwatch'
+import { RecoilRoot } from 'recoil'
+import { LinkedinNotification } from './components/LinkedinNotification'
 
 function App() {
 
     return (
-        <div>
-            <Stopwatch></Stopwatch>
-        </div>
+        <RecoilRoot>
+            <LinkedinNotification />
+        </RecoilRoot>
     )
 }
 export default App

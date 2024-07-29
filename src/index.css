@@ -34,7 +34,7 @@ h1 {
   font-size: 4rem;
 }
 
-button {
+/* button {
   font-size: 1.7rem;
   font-weight: bold;
   padding: 10px 20px;
@@ -43,7 +43,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.5s ease;
-}
+} */
 
 .add-btn {
   background-color: hsl(191, 94%, 46%);
@@ -51,7 +51,7 @@ button {
 
 .add-btn:hover {
   background-color: hsl(191, 94%, 26%);
-  ;
+  
 }
 
 .delete-btn {

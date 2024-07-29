@@ -1,0 +1,15 @@
+.linkedin-container button {
+    background-color: hsl(197, 100%, 48%);
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: hsl(197, 100%, 38%);
+}
